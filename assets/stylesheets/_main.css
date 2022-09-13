@@ -1,0 +1,257 @@
+.rb-main .rb-highlight {
+  margin-top: 28px;
+}
+
+.rb-main .rb-highlight .rb-highlight-content {
+  background-color: #fbf4e2;
+  border-radius: 50px;
+}
+
+.rb-title {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 48px;
+  color: #463c74;
+  font-weight: 700;
+  position: relative;
+  text-align: left;
+  padding-left: 15px;
+  line-height: 60px;
+}
+
+.rb-subtitle {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 18px;
+  color: #000;
+  font-weight: 400;
+  position: relative;
+  text-align: left;
+  padding-left: 15px;
+  line-height: 22px;
+  margin-top: 30px;
+}
+
+.rb-button {
+  background-color: #b4d51e;
+  border-radius: 8px;
+  margin-left: 15px;
+  margin-top: 42px;
+  margin-bottom: 60px;
+  color: #fff;
+  padding: 14px 27px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  border-width: 0;
+}
+
+.rb-popular-now {
+  margin-top: 56px;
+}
+
+.rb-popular-now-title {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #463c74;
+  position: relative;
+  text-align: left;
+}
+
+.rb-latest-books .rb-content-titles-books,
+.rb-popular-now .rb-content-titles-books {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.rb-popular-now-view-all {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #828282;
+}
+
+.rb-card-selena {
+  display: block;
+  margin-top: 45px;
+  margin-right: 88.5px;
+  margin-left: 88.5px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+.rb-cover-image-selena {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 44.5px;
+}
+
+.rb-cover-title-selena {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+  position: relative;
+  text-align: left;
+  padding-top: 24px;
+  padding-left: 32px;
+}
+
+.rb-cover-subtitle-selena {
+  font-family: 'inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  text-align: left;
+  padding-left: 32px;
+  padding-top: 24px;
+}
+
+.rb-cover-classification {
+  padding-left: 32px;
+  padding-top: 8px;
+}
+
+.rb-author-image-selena {
+  padding-left: 32px;
+  padding-top: 24px;
+}
+
+.rb-author-name-selena {
+  font-family: 'inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: black;
+  position: relative;
+  text-align: right;
+  padding-right: 32px;
+  padding-bottom: 48.5px;
+}
+
+.rb-latest-books {
+  margin-top: 56px;
+}
+
+.rb-latest-books-title {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #463c74;
+  position: relative;
+  text-align: left;
+}
+
+.rb-latest-books-view-all {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #828282;
+  text-align: right;
+}
+
+.rb-card-the-compound-effect {
+  display: block;
+  margin-top: 45px;
+  margin-right: 88.5px;
+  margin-left: 88.5px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+.rb-cover-image-the-compound-effect {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-top: 44.5px;
+}
+
+.rb-cover-title-the-compound-effect {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+  position: relative;
+  text-align: left;
+  padding-top: 24px;
+  padding-left: 32px;
+}
+
+.rb-cover-subtitle-the-compound-effect {
+  font-family: 'inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  text-align: left;
+  padding-left: 32px;
+  padding-top: 24px;
+}
+
+.rb-author-image-the-compound-effect {
+  padding-left: 32px;
+  padding-top: 24px;
+}
+
+.rb-author-name-the-compound-effect {
+  font-family: 'inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: black;
+  position: relative;
+  text-align: right;
+  padding-right: 32px;
+  padding-bottom: 48.5px;
+}
+
+.rb-title-recommended {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 32px;
+  color: #463c74;
+  font-weight: 700;
+  position: relative;
+  text-align: center;
+  line-height: 40px;
+}
+
+.rb-recommended-form .rb-sr-recommended {
+  position: relative;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: white;
+  /* margin-top: 67px; */
+  /* margin-left: 32px; */
+  /* margin-right: 32px; */
+  height: 71px;
+  background-color: #fff;
+  outline: 1px solid red;
+}
+
+.rb-sr-recommended {
+  color: rgba(70, 60, 116, 0.5);
+  font-family: 'Merriweather', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  padding-left: 30px;
+}
+
+.rb-recommended-button {
+  background-color: #b4d51e;
+  border-radius: 10%;
+  color: #fff;
+  height: 71px;
+  width: 158px;
+  padding: 19px 26px 22px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-left: 222px;
+  margin-right: 16px;
+  margin-bottom: 125px;
+}

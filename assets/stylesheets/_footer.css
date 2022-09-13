@@ -1,0 +1,72 @@
+.rb-footer {
+  background-color: #fbf4e2;
+  margin-top: 80px;
+}
+.rb-footer-title {
+  color: #463c74;
+  font-family: 'McLaren', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 45px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.rb-footer-title span {
+  color: #b4d51e;
+}
+
+.rb-footer-subtitle {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 18px;
+  color: #828282;
+  font-weight: 400;
+  position: relative;
+  text-align: center;
+  line-height: 23px;
+  margin-top: 16px;
+}
+.rb-footer-navigation {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 18px;
+  color: black;
+  font-weight: 400;
+  position: relative;
+  text-align: left;
+  line-height: 23px;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.rb-footer-links ul li a {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 16px;
+  color: #828282;
+  font-weight: 400;
+  position: relative;
+  text-align: left;
+  line-height: 20px;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.rb-footer-second-title {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 18px;
+  color: black;
+  font-weight: 400;
+  position: relative;
+  text-align: left;
+  line-height: 23px;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.rb-footer-email .rb-footer-adress {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 16px;
+  color: #828282;
+  font-weight: 400;
+  position: relative;
+  text-align: left;
+  line-height: 20px;
+  margin-top: 12px;
+  padding-left: 16px;
+}
