@@ -162,3 +162,25 @@
 .rb-header .rb-menu ul li a:hover::before {
   transform: scale(1);
 }
+
+@media screen and (min-width: 1024px) {
+  .rb-header .rb-header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-bottom: 60px;
+  }
+
+  .rb-header-form .rb-form-group .rb-input-control {
+    width: 570px;
+  }
+
+  .rb-header .rb-menu ul {
+    justify-content: center;
+  }
+
+  .rb-header .rb-menu ul li:not(:last-of-type) {
+    margin-right: 35px;
+  }
+}
