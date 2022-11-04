@@ -36,7 +36,7 @@
   margin-left: 15px;
   margin-top: 42px;
   margin-bottom: 60px;
-  color: #fff;
+  color: #fff; 
   padding: 14px 27px;
   font-weight: 700;
   font-size: 18px;
@@ -73,8 +73,9 @@
   color: #828282;
 }
 
-.rb-card-selena {
+.rb-card {
   display: block;
+  padding: 44px 32px;
   margin-top: 45px;
   margin-right: 88.5px;
   margin-left: 88.5px;
@@ -83,46 +84,71 @@
   border-radius: 12px;
 }
 
-.rb-cover-image-selena {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  padding-top: 44.5px;
+.rb-cover-image {
+  margin-bottom: 24px;
 }
 
-.rb-cover-title-selena {
+.rb-cover-title {
+  position: relative;
+  color: #000;
   font-family: 'Merriweather', sans-serif;
   font-size: 24px;
   font-weight: 400;
-  color: black;
-  position: relative;
   text-align: left;
-  padding-top: 24px;
-  padding-left: 32px;
-}
-
-.rb-cover-subtitle-selena {
-  font-family: 'inter', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.6);
-  position: relative;
-  text-align: left;
-  padding-left: 32px;
-  padding-top: 24px;
+  margin-bottom: 8px;
 }
 
 .rb-cover-classification {
-  padding-left: 32px;
-  padding-top: 8px;
+  display: block;
+  margin-bottom: 24px;
 }
 
-.rb-author-image-selena {
+.rb-cover-subtitle {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.rb-autor-container {
+  display: flex;
+  align-items: center;
+}
+
+.rb-author-image {
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
+  max-width: initial;
+  margin-right: 4px;
+}
+
+.rb-author-name {
+  color: #000;
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.rb-author-name span {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.rb-author-image-selena,
+.rb-author-image-habits,
+.rb-author-image-bintang,
+.rb-author-image-start {
   padding-left: 32px;
   padding-top: 24px;
 }
 
-.rb-author-name-selena {
+.rb-author-name-selena,
+.rb-author-name-habits,
+.rb-author-name-bintang,
+.rb-author-name-start {
   font-family: 'inter', sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -154,7 +180,10 @@
   text-align: right;
 }
 
-.rb-card-the-compound-effect {
+.rb-card-the-compound-effect,
+.rb-card-build-a-story,
+.rb-card-crushing-it,
+.rb-card-atomic-habits {
   display: block;
   margin-top: 45px;
   margin-right: 88.5px;
@@ -164,14 +193,20 @@
   border-radius: 12px;
 }
 
-.rb-cover-image-the-compound-effect {
+.rb-cover-image-the-compound-effect,
+.rb-cover-image-build-a-story,
+.rb-cover-image-crushing-it,
+.rb-cover-image-atomic-habits {
   margin-left: auto;
   margin-right: auto;
   display: block;
   padding-top: 44.5px;
 }
 
-.rb-cover-title-the-compound-effect {
+.rb-cover-title-the-compound-effect,
+.rb-cover-title-build-a-story,
+.rb-cover-title-crushing-it,
+.rb-cover-title-atomic-habits {
   font-family: 'Merriweather', sans-serif;
   font-size: 24px;
   font-weight: 400;
@@ -182,7 +217,10 @@
   padding-left: 32px;
 }
 
-.rb-cover-subtitle-the-compound-effect {
+.rb-cover-subtitle-the-compound-effect,
+.rb-cover-subtitle-build-a-story,
+.rb-cover-subtitle-crushing-it,
+.rb-cover-subtitle-atomic-habits {
   font-family: 'inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -193,12 +231,18 @@
   padding-top: 24px;
 }
 
-.rb-author-image-the-compound-effect {
+.rb-author-image-the-compound-effect,
+.rb-author-image-build-a-story,
+.rb-author-image-crushing-it,
+.rb-author-image-atomic-habits {
   padding-left: 32px;
   padding-top: 24px;
 }
 
-.rb-author-name-the-compound-effect {
+.rb-author-name-the-compound-effect,
+.rb-author-name-build-a-story,
+.rb-author-name-crushing-it,
+.rb-author-name-atomic-habits {
   font-family: 'inter', sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -207,51 +251,4 @@
   text-align: right;
   padding-right: 32px;
   padding-bottom: 48.5px;
-}
-
-.rb-title-recommended {
-  font-family: 'Merriweather', sans-serif;
-  font-size: 32px;
-  color: #463c74;
-  font-weight: 700;
-  position: relative;
-  text-align: center;
-  line-height: 40px;
-}
-
-.rb-recommended-form .rb-sr-recommended {
-  position: relative;
-  border-style: solid;
-  border-radius: 8px;
-  border-color: white;
-  /* margin-top: 67px; */
-  /* margin-left: 32px; */
-  /* margin-right: 32px; */
-  height: 71px;
-  background-color: #fff;
-  outline: 1px solid red;
-}
-
-.rb-sr-recommended {
-  color: rgba(70, 60, 116, 0.5);
-  font-family: 'Merriweather', sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-  padding-left: 30px;
-}
-
-.rb-recommended-button {
-  background-color: #b4d51e;
-  border-radius: 10%;
-  color: #fff;
-  height: 71px;
-  width: 158px;
-  padding: 19px 26px 22px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  margin-left: 222px;
-  margin-right: 16px;
-  margin-bottom: 125px;
 }

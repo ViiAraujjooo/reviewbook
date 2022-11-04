@@ -1,6 +1,6 @@
 .rb-footer {
   background-color: #fbf4e2;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .rb-footer-title {
   color: #463c74;
@@ -37,14 +37,16 @@
   margin-top: 16px;
   margin-left: 16px;
 }
-.rb-footer-links ul li a {
+.rb-footer-links a:link,
+a:visited,
+a:active {
   font-family: 'Merriweather', sans-serif;
   font-size: 16px;
   color: #828282;
   font-weight: 400;
   position: relative;
-  text-align: left;
   line-height: 20px;
+  text-align: left;
   margin-top: 16px;
   margin-left: 16px;
 }
@@ -59,14 +61,21 @@
   margin-top: 16px;
   margin-left: 16px;
 }
-.rb-footer-email .rb-footer-adress {
+.rb-footer-email,
+.rb-footer-adress,
+.rb-footer-adress2,
+.rb-footer-rights {
   font-family: 'Merriweather', sans-serif;
   font-size: 16px;
   color: #828282;
   font-weight: 400;
   position: relative;
-  text-align: left;
   line-height: 20px;
-  margin-top: 12px;
-  padding-left: 16px;
+  text-align: left;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.rb-footer-rights {
+  padding-bottom: 16px;
 }
