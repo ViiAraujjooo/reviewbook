@@ -32,10 +32,11 @@
   color: black;
   font-weight: 400;
   position: relative;
-  text-align: left;
   line-height: 23px;
   margin-top: 16px;
   margin-left: 16px;
+  display: flex;
+  justify-content: center;
 }
 .rb-footer-links a:link,
 a:visited,
@@ -44,23 +45,13 @@ a:active {
   font-size: 16px;
   color: #828282;
   font-weight: 400;
-  position: relative;
   line-height: 20px;
-  text-align: left;
   margin-top: 16px;
   margin-left: 16px;
+  display: flex;
+  justify-content: center;
 }
-.rb-footer-second-title {
-  font-family: 'Merriweather', sans-serif;
-  font-size: 18px;
-  color: black;
-  font-weight: 400;
-  position: relative;
-  text-align: left;
-  line-height: 23px;
-  margin-top: 16px;
-  margin-left: 16px;
-}
+
 .rb-footer-email,
 .rb-footer-adress,
 .rb-footer-adress2,
@@ -69,13 +60,13 @@ a:active {
   font-size: 16px;
   color: #828282;
   font-weight: 400;
-  position: relative;
   line-height: 20px;
-  text-align: left;
   margin-top: 16px;
   margin-left: 16px;
+  display: flex;
+  justify-content: center;
 }
 
 .rb-footer-rights {
-  padding-bottom: 16px;
+  padding-bottom: 40px;
 }
