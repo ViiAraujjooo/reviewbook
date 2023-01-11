@@ -26,7 +26,20 @@
   line-height: 23px;
   margin-top: 16px;
 }
-.rb-footer-navigation {
+.rb-footer-navigation-title {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 18px;
+  color: black;
+  font-weight: 400;
+  position: relative;
+  line-height: 23px;
+  margin-top: 16px;
+  margin-left: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.rb-footer-company-title {
   font-family: 'Merriweather', sans-serif;
   font-size: 18px;
   color: black;
@@ -69,4 +82,24 @@ a:active {
 
 .rb-footer-rights {
   padding-bottom: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  .rb-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 40px;
+  }
+
+  .rb-footer-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-top: 40px;
+  }
+  .rb-footer-links {
+    list-style: none;
+    text-align: left;
+  }
 }

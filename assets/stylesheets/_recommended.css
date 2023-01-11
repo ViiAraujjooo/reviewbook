@@ -1,8 +1,6 @@
 .rb-recommended {
   background-color: #fbf4e2;
   border-radius: 50px;
-  padding-top: 40px;
-  padding-bottom: 40px;
   margin: 40px 16px 0px 16px;
 }
 
@@ -14,6 +12,7 @@
   line-height: 40px;
   text-align: center;
   margin-bottom: 32px;
+  padding-top: 100px;
 }
 
 .rb-recommended-form fieldset {
@@ -41,11 +40,42 @@
   opacity: 1;
 }
 
-.rb-recommended-form .rb-button {
+.rb-recommended-form .rb-recommended-button {
   color: white;
-  width: 100%;
-  margin-top: 0;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
+  font-size: 24px;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 700;
+  background-color: #b4d51e;
+  width: 150px;
+  height: 71px;
+  border-radius: 8px;
+  border: none;
+  margin-left: 27px;
+}
+
+.rb-form-group {
+  margin-bottom: 100px;
+}
+
+@media screen and (min-width: 1024px) {
+  .rb-recommended {
+    margin-left: 110px;
+    margin-right: 110px;
+  }
+  .rb-recommended-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .rb-form-group {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .rb-form-control {
+    width: 468px;
+    height: 71px;
+  }
 }

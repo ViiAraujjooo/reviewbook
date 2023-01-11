@@ -1,8 +1,11 @@
 .rb-main .rb-highlight {
   margin-top: 28px;
+  margin-left: 16px;
+  margin-right: 16px;
+  display: flex;
 }
 
-.rb-main .rb-highlight .rb-highlight-content {
+.rb-container {
   background-color: #fbf4e2;
   border-radius: 50px;
 }
@@ -156,4 +159,66 @@
   font-weight: 400;
   color: #828282;
   text-align: right;
+}
+
+@media screen and (min-width: 1024px) {
+  .rb-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .rb-highlight-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rb-button {
+    width: 155px;
+    height: 51px;
+  }
+
+  .rb-popular-now {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 5px;
+  }
+
+  .rb-popular-now .rb-content-titles-books {
+    width: 100%;
+  }
+
+  .rb-popular-now .rb-card {
+    width: 250px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .rb-latest-books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    gap: 5px;
+  }
+
+  .rb-latest-books .rb-content-titles-books {
+    width: 100%;
+  }
+
+  .rb-latest-books .rb-card {
+    width: 250px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .rb-books-cards {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
 }

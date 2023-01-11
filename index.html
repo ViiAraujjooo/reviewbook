@@ -18,7 +18,7 @@
 
   <body>
     <header class="rb-header">
-      <div class="rb-container">
+      <div class="rb-header-container">
         <div class="rb-header-top">
           <h3 class="rb-header-tittle">Review<span>Book</span></h3>
 
@@ -70,18 +70,17 @@
       <section class="rb-highlight">
         <div class="rb-container">
           <div class="rb-highlight-content">
-            <img
-              src="assets/images/highlight-image.svg"
-              alt="A represetention of a girl on top of a big green book with white pages and others books fly around her"
-              class="rb-highlight-image"
-            />
-
             <h1 class="rb-title">Book is a window to the world</h1>
 
             <p class="rb-subtitle">wake up your dream by reading a book every day</p>
 
             <a href="#" class="rb-button">Read Now</a>
           </div>
+          <img
+            src="assets/images/highlight-image.svg"
+            alt="A represetention of a girl on top of a big green book with white pages and others books fly around her"
+            class="rb-highlight-image"
+          />
         </div>
       </section>
 
@@ -318,16 +317,19 @@
       </section>
 
       <section class="rb-recommended">
-        <div class="rb-container">
-          <div class="rb-recommended-content">
-            <h2 class="rb-recommended-title">Recommended books from you to review</h2>
+        <div class="rb-recommended-container">
+          <h2 class="rb-recommended-title">
+            Recommended books <br />
+            from you to review
+          </h2>
 
+          <div class="rb-recommended-content">
             <form class="rb-recommended-form">
               <fieldset>
                 <div class="rb-form-group">
                   <label for="search" class="rb-sr-only">write your recommendation</label>
                   <input type="text" id="search" class="rb-form-control" placeholder="write your recommendation" />
-                  <button type="submit" class="rb-button">Submit</button>
+                  <button type="submit" class="rb-recommended-button">Submit</button>
                 </div>
               </fieldset>
             </form>
@@ -346,22 +348,28 @@
     </main>
 
     <footer class="rb-footer">
-      <h3 class="rb-footer-title">Review <span>Book</span></h3>
-      <p class="rb-footer-subtitle">Is the best place to review a book</p>
+      <div class="rb-footer-container">
+        <h3 class="rb-footer-title">Review <span>Book</span></h3>
+        <p class="rb-footer-subtitle">Is the best place to review a book</p>
+      </div>
 
-      <h5 class="rb-footer-navigation">Navigation</h5>
+      <div class="rb-footer-navigation">
+        <h5 class="rb-footer-navigation-title">Navigation</h5>
 
-      <ul class="rb-footer-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Bestseller</a></li>
-        <li><a href="#">Category</a></li>
-        <li><a href="#">Community</a></li>
-        <li><a href="#">Blog</a></li>
-      </ul>
-      <h5 class="rb-footer-navigation">Company</h5>
-      <p class="rb-footer-email">admin@reviewbook.com</p>
-      <p class="rb-footer-adress">Jln. Stiabudhi No. 193</p>
-      <p class="rb-footer-adress2">Bandung Indonesia</p>
+        <ul class="rb-footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Bestseller</a></li>
+          <li><a href="#">Category</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div class="rb-footer-company">
+        <h5 class="rb-footer-company-title">Company</h5>
+        <p class="rb-footer-email">admin@reviewbook.com</p>
+        <p class="rb-footer-adress">Jln. Stiabudhi No. 193</p>
+        <p class="rb-footer-adress2">Bandung Indonesia</p>
+      </div>
 
       <p class="rb-footer-rights">© 2021 ReviewBook. All rights reserved.</p>
     </footer>
